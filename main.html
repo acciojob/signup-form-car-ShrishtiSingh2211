@@ -10,15 +10,15 @@
 	<!-- the entire body must be written by student -->
 	<form method="post">
 		<h1>Signup Form Car</h1>
-		<label  for="name" >Name:</label>
-		<input type="text" name="name" id="name" placeholder="Name" required><br/>
+		<label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" required><br/>
 		<lable for="email" >Email:</label>
-		<input type="Email" id="email" placeholder="Email" required><br/>
+		<input type="Email" id="email" name="email" placeholder="Email" required><br/>
 		<label for="gender">Gender:</label>
 		<input type="radio" id="gender_m" name="gender" required><lable >Male</lable>
         <input type="radio" id="gender_f" name="gender"required> <lable >Female</lable><br/>
-		<label for="">Car Brands:</label>
-		<select id="cars"required>
+		<label for="cars">Car Brands:</label>
+		<select id="cars" required>
 			<option value="">--Please choose an option--</option>
 			<option>BMW</option>
 			<option>Tata punch</option>
@@ -27,14 +27,14 @@
 			<option>fortuner</option>
 			<option>wegenar</option></select><br/>
 		<label for="age">Age</label>
-		<input type="number" id="age" placeholder="Age" required><br/>
+		<input type="number" id="age" name="age" placeholder="Age" required><br/>
 		<label for="DOB">DOB</label>
-		<input type="date" id="dob" required><br/>
+		<input type="date" id="dob" name="dob" required><br/>
 		<label for="tel">Phone Number</label>
-		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"> <br/>
+		<input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx"> <br/>
 		<label for="password">Password:</label>
-		<input type="password" id="password" placeholder="password" required><br/>
-		<input type="checkbox" id="tos" required>
+		<input type="password" id="password" name="password" placeholder="password" required><br/>
+		<input type="checkbox" id="tos" name="tos" required>
 		<label for="tos">I agree to the TOS</label>
 		<br/>
 		<button type="submit">Submit</button>
