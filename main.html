@@ -10,31 +10,32 @@
 	<!-- the entire body must be written by student -->
 	<form method="post">
 		<h1>Signup Form Car</h1>
-		<lable  for="name" >Name:</lable>
-		<input type="" id="" placeholder="Name" required><br/>
-		<lable for="email" >Email:</lable>
+		<label  for="name" >Name:</label>
+		<input type="text" name="name" id="name" placeholder="Name" required><br/>
+		<lable for="email" >Email:</label>
 		<input type="Email" id="email" placeholder="Email" required><br/>
-		<lable for="gender">Gender:</lable>
-		<input type="radio" id="gender_m" required><lable >Male</lable>
-        <input type="radio" id="gender_f" required> <lable >Female</lable><br/>
-		<lable for="">Car Brands:</lable>
-		<select >
+		<label for="gender">Gender:</label>
+		<input type="radio" id="gender_m" name="gender" required><lable >Male</lable>
+        <input type="radio" id="gender_f" name="gender"required> <lable >Female</lable><br/>
+		<label for="">Car Brands:</label>
+		<select id="cars"required>
+			<option value="">--Please choose an option--</option>
 			<option>BMW</option>
 			<option>Tata punch</option>
 			<option>xylo</option>
 			<option>Audi</option>
 			<option>fortuner</option>
 			<option>wegenar</option></select><br/>
-		<lable for="age">Age</lable>
-		<input type="number" id="agr" placeholder="Age" required><br/>
-		<lable for="DOB">DOB</lable>
+		<label for="age">Age</label>
+		<input type="number" id="age" placeholder="Age" required><br/>
+		<label for="DOB">DOB</label>
 		<input type="date" id="dob" required><br/>
-		<lable for="tel">Phone Number</lable>
-		<input type="tel" id="tel"><br/>
-		<lable for="password">Password:</lable>
+		<label for="tel">Phone Number</label>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"> <br/>
+		<label for="password">Password:</label>
 		<input type="password" id="password" placeholder="password" required><br/>
 		<input type="checkbox" id="tos" required>
-		<lable for="tos">I agree to the TOS</lable>
+		<label for="tos">I agree to the TOS</label>
 		<br/>
 		<button type="submit">Submit</button>
 	</form>
